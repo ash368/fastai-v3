@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1gDkXI3PEJswyXP4H0XEyqg8AhnqSsuyC'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1hTF9uPjao9HogRWlCdy4QoQFWpjHQB7K'
 export_file_name = 'export.pkl'
 
-classes = ['brown_spot', 'rice_blast', 'sheath_blight']
+classes = ['Apple___Apple_scab', 'Tomato___Late_blight', 'Tomato___Septoria_leaf_spot', 'Pepper_bell___Bacterial_spot', 'Grape___Esca_Black_Measles', 'Tomato___Bacterial_spot', 'Blueberry___healthy', 'Cherry_including_sour___healthy', 'Corn_maize___healthy', 'Raspberry___healthy', 'Apple___healthy', 'Grape___Leaf_blight_Isariopsis_Leaf_Spot', 'Grape___healthy', 'Tomato___Leaf_Mold', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus', 'Strawberry___Leaf_scorch', 'Tomato___healthy', 'Grape___Black_rot', 'Corn_maize___Cercospora_leaf_spot Gray_leaf_spot', 'Peach___healthy', 'Peach___Bacterial_spot', 'Tomato___Target_Spot', 'Squash___Powdery_mildew', 'Apple___Cedar_apple_rust', 'Potato___healthy', 'Orange___Haunglongbing_Citrus_greening', 'Tomato___Early_blight', 'Cherry_including_sour___Powdery_mildew', 'Soybean___healthy', 'Tomato___Spider_mites_Two-spotted_spider_mite', 'Potato___Early_blight', 'Potato___Late_blight', 'Pepper_bell___healthy', 'Strawberry___healthy', 'Corn_maize___Northern_Leaf_Blight', 'Corn_maize___Common_rust_', 'Apple_Frogeye_Spot']
 path = Path(__file__).parent
 
 app = Starlette()
